@@ -1,0 +1,104 @@
+.main{
+    font-family: 'Chekharda', sans-serif;                                                
+}
+
+.heroTitle{
+    padding-top: 50px;
+    text-align: center;
+    color: palevioletred;
+    text-shadow: rgb(181, 122, 179) 1px 0 10px;;
+    font-size: 72px;
+    font-family: 'Caveat', cursive;                                                                                 
+}
+
+.body{
+    z-index: 1;
+    background:
+    radial-gradient(50% 50% at 100% 0,#b9dbea 0%  5% ,#dfc7c7 6%  15%,#b9dbea 16% 25%,#dfc7c7 26% 35%,#b9dbea 36% 45%,
+     #dfc7c7 46% 55%,#b9dbea 56% 65%,#dfc7c7 66% 75%,#b9dbea 76% 85%,#dfc7c7 86% 95%,
+     #0000 96%),
+    radial-gradient(50% 50% at 0 100%,#b9dbea 0%  5% ,#dfc7c7 6%  15%,#b9dbea 16% 25%,#dfc7c7 26% 35%,#b9dbea 36% 45%,
+     #dfc7c7 46% 55%,#b9dbea 56% 65%,#dfc7c7 66% 75%,#b9dbea 76% 85%,#dfc7c7 86% 95%,
+     #0000 96%),
+    radial-gradient(50% 50%,#b9dbea 0%  5% ,#dfc7c7 6%  15%,#b9dbea 16% 25%,#dfc7c7 26% 35%,#b9dbea 36% 45%,
+     #dfc7c7 46% 55%,#b9dbea 56% 65%,#dfc7c7 66% 75%,#b9dbea 76% 85%,#dfc7c7 86% 95%,
+     #0000 96%),
+    radial-gradient(50% 50%,#b9dbea 0%  5% ,#dfc7c7 6%  15%,#b9dbea 16% 25%,#dfc7c7 26% 35%,#b9dbea 36% 45%,
+     #dfc7c7 46% 55%,#b9dbea 56% 65%,#dfc7c7 66% 75%,#b9dbea 76% 85%,#dfc7c7 86% 95%,
+     #0000 96%) 29px 29px;
+    background-size: 58px 58px;
+    background-color: #b9dbea;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+}
+
+.header{
+    vertical-align: middle;
+    background: #b9dbea;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.video{
+    text-align: center;
+    padding: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background: wheat;
+    box-shadow: #dfc7c7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.description{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    background: white;
+}
+
+.title{
+    padding: 3px;
+    background: white;
+    border-radius: 3px;
+    font-family: 'Caveat', cursive;  
+}
+
+.code{
+    padding: 5px;
+    background: greenyellow;
+    border-radius: 3px;
+}
+
+.authorName{
+    padding: 5px;
+    background: pink;
+    border-radius: 3px;
+}
+
+.videoGrid{
+    border-radius: 20px;
+    padding: 20px;
+    height: 34vh;
+    margin: auto;
+    background: white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer{
+    height: 10vh;
+    background: 
+      linear-gradient(135deg,#0000 20.5%,#b9dbea 0 29.5%,#0000 0) 0 35.5px,
+      linear-gradient( 45deg,#0000 8%,#b9dbea 0 17%, #0000 0 58%) 71px 0,
+      linear-gradient(135deg,#0000 8%,#b9dbea 0 17%, #0000 0 58%,#b9dbea 0 67%,#0000 0),        
+      linear-gradient( 45deg,#0000 8%,#b9dbea 0 17%, #0000 0 58%,#b9dbea 0 67%,#0000 0 83%,#b9dbea 0 92%,#0000 0),
+      #b0f5f5;
+    background-size: 142px 142px;
+}
